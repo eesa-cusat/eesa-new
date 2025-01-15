@@ -1,14 +1,9 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
 import GoToTop from "./GoToTop";
 
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
-import { Wrapper, animation } from "./StudentData";
+import { Wrapper } from "./StudentData";
 
 const AlumniData = () => {
   return (

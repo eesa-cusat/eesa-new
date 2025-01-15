@@ -49,7 +49,7 @@ const Footer = (props) => {
           justifyContent={matchesMD ? "center" : "left"}
         >
           <Grid item>
-            <img style={{ height: "5rem" }} src={logoeesa} />
+            <img style={{ height: "5rem" }} src={logoeesa} alt="EESA Logo" />
           </Grid>
           <Grid item sx={{ ml: "1%" }}>
             <Typography
