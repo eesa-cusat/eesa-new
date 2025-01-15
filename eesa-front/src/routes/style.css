@@ -1,0 +1,39 @@
+.main-container {
+  background-image: url("../assets/img2.jpg");
+  background-size: cover;
+}
+
+.dep-container {
+  background-image: url("../assets/img3.jpg");
+  background-size: cover;
+}
+
+.library-container {
+  background-image: url("../assets/img6.jpg");
+  background-size: cover;
+}
+
+.about-page {
+  background-image: url("../assets/about1.jpg");
+  background-size: cover;
+}
+
+.sem-container {
+  background-image: url("../assets/img5.jpg");
+  background-size: cover;
+}
+
+.reg-container {
+  background-image: url("../assets/img5.jpg");
+  background-size: cover;
+}
+
+.reg-container2 {
+  background-image: url("../assets/img7.jpg");
+  background-size: cover;
+}
+
+.alumni-container {
+  background-image: url("../assets/alumni.jpg");
+  background-size: cover;
+}
