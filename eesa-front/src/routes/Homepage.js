@@ -19,6 +19,8 @@ export const Wrapper = styled(Grid)`
   animation: ${animation} 1500ms ${theme.transitions.easing.easeInOut};
 `;
 
+const SHARE_NOTES_URL = "https://forms.gle/H5EdLsvA2ivoZTH68";
+
 // const FadeUp = batch(Fade(), Sticky(), MoveOut(0, -200));
 // const FadeDown = batch(FadeOut(), FadeIn());
 // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
@@ -108,7 +110,7 @@ const Homepage = () => {
         <Grid item align="center" sx={{ my: "4rem" }}>
           <Link
             sx={{ textDecoration: "none" }}
-            href="https://forms.gle/H5EdLsvA2ivoZTH68"
+            href={SHARE_NOTES_URL}
             rel="noreferrer"
             target="_blank"
           >

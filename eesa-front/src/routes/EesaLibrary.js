@@ -53,6 +53,8 @@ const LibButton = styled(Button)(({ theme }) => ({
   },
 }));
 
+const SHARE_NOTES_URL = "https://forms.gle/H5EdLsvA2ivoZTH68";
+
 const EesaLibrary = () => {
   const [selectedScheme, setSelectedScheme] = useState(() => {
     // Retrieve the selected scheme from sessionStorage if it exists
@@ -117,10 +119,10 @@ const EesaLibrary = () => {
               </CardContent>
             </Card>
             <Grid item sx={{ mt: "2rem" }}>
-              <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
+              <Stack direction="row" spacing={2}>
                 <Link
                   sx={{ textDecoration: "none" }}
-                  href=""
+                  href={SHARE_NOTES_URL}
                   rel="noreferrer"
                   target="_blank"
                 >
